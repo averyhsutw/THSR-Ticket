@@ -41,8 +41,24 @@ python -m pip install -r requirements.txt
 ```
 python thsr_ticket/main.py
 ```
+## 可以使用 Virtual Environment 執行
 
-
+You can install venv:
+```
+pip install virtualenv
+```
+Then, create the environment:
+```
+python<version> -m venv <virtual-environment-name>
+```
+To activate your virtual environment:
+```
+source <virtual-environment-name>/bin/activate
+```
+To deactivate the environment:
+```
+deactivate
+```
 
 ## 注意事項!!!
 
